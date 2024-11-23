@@ -1,0 +1,39 @@
+lastupdatecheck: 1727592682
+recentrepos:
+    - /home/brown/Code/visio
+    - /home/brown/dotfiles
+    - /home/brown/Code/tradestack-admin-api
+    - /home/brown/Code/tradestacks-admin
+    - /home/brown/Code/stackup/stackup-bounty/nexfeed
+    - /home/brown/Code/stackup/stackup-bounty/catalogit
+    - /home/brown/Code/estackcom
+    - /home/brown/Code/tradestack
+    - /home/brown/Code/stackup/stackup-bounty/bounty3
+    - /home/brown/Code/stackup/quest-3
+    - /home/brown/Code/fetcher
+    - /home/brown/Code/fiiro
+    - /home/brown/Code/typescript
+    - /home/brown/Code/mrlectus-portfolio
+    - /home/brown/Code/study-buddy
+    - /home/brown/Code/leEstate
+    - /home/brown/Code/rubi-admin
+    - /home/brown/Code/python/langchain-rag
+    - /home/brown/Code/slanpay
+    - /home/brown/Code/wasm-mrlectus
+    - /home/brown/Code/stocky
+    - /home/brown/Jere_kara_web
+    - /home/brown/Code/aws_cloud_practitioner
+startuppopupversion: 5
+lastversion: 0.44.1
+customcommandshistory:
+    - w
+    - betty
+    - removed
+hidecommandlog: false
+ignorewhitespaceindiffview: true
+diffcontextsize: 3
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
