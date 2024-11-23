@@ -22,12 +22,6 @@ ln -s "$(pwd)/squashfs-root/AppRun" /home/gitpod/.local/bin/nvim
 ) >/dev/null &
 disown
 
-## Load dotfiles
-(
-  cd dotfiles || exit
-  stow .
-)
-
 ## installing language servers
 (
   npm install -g vtsls \
@@ -42,3 +36,11 @@ disown
 
 ) >/dev/null &
 disown
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
+
+## Load dotfiles
+(
+  cd dotfiles || exit
+  stow .
+)
