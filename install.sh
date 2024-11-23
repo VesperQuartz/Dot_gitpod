@@ -16,15 +16,13 @@ ln -s "$(pwd)/squashfs-root/AppRun" /home/gitpod/.local/bin/nvim
 (
   sudo apt update
   sudo apt install -y neofetch \
-    gh \
-    lazygit \
-    lua-language-server
+    gh
 ) >/dev/null &
 disown
 
 ## installing language servers
 (
-  npm install -g vtsls \
+  npm install -g @vtsls/language-server \
     awk-language-server \
     vscode-solidity-server \
     solc \
@@ -41,6 +39,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Load dotfiles
 (
-  cd dotfiles || exit
+  cd ~/.dotfiles || exit
   stow .
 )
