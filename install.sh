@@ -16,7 +16,8 @@ ln -s "$(pwd)/squashfs-root/AppRun" /home/gitpod/.local/bin/nvim
 (
   sudo apt update
   sudo apt install -y neofetch \
-    gh
+    gh \
+    eza
 ) >/dev/null &
 disown
 
@@ -39,6 +40,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Load dotfiles
 (
+  rm ~/.zshrc
   cd ~/.dotfiles || exit
   stow .
 )
